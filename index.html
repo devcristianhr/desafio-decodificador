@@ -19,38 +19,17 @@
 
     <main class="conteiner__entrada__saida__de__texto">
         <div class="entrada__saida__de__texto">
-            <div class="entrada__de__texto__container">
-                <div class="entrada__de__texto__container-escrever">
-                    <textarea class="entrada__de__texto__escrever"  placeholder="Digite seu texto aqui"></textarea>
-                </div>
-
-                <p class="exclamacao">
-                    <img class="exclamacao__simbol" src="./assets/Vect.svg" alt="exclamação">
-                    <span>Apenas letras minúsculas e sem acento.</span>
-                </p>
-
-                <div class="botoes-area">
-                    <button class="botao__criptografar">Criptografar</button>
-                    <button class="botao__descriptografar">Descriptografar</button>
-                </div>
-
-            </div>
-            
-        
-            <aside class="saida__de__texto">
-                <div class="saida__de__texto__vizualizar">
-                    <textarea readonly class="vizualizacao__fixa"></textarea>
-                    <div class="saida__de__texto__vizualizar__saída">
-                        <img src="./assets/High quality products 1 1 (1).svg" alt="personagem procurando algo">
-                        <h4 class="saida__de__texto__vizualizar-titulo">Nenhuma mensagem encontrada</h4>
-                        <h5 class="saida__de__texto__vizualizar-subtitulo">Digite um texto que você deseja criptografar ou descriptografar</h5>
-                    </div>
-
-                    <button class="saida__de__texto__vizualizar__copiar">
-                        <span>Copiar</span>
-                    </button>
-                </div>
+            <input class="entrada__saida__de__texto__digitar" type="text" name="digitar-texto" id="digite_texto" placeholder="Digite seu texto">
+            <aside class="entrada__saida__de__texto__vizualizar">
+                <img src="./assets/High quality products 1 1 (1).svg" alt="personagem procurando algo">
+                <h4 class="entrada__saida__de__texto__vizualizar-titulo">Nenhuma mensagem encontrada</h4>
+                <p class="entrada__saida__de__texto__vizualizar-subtitulo">Digite um texto que você deseja criptografar ou descriptografar</p>
             </aside>
+        </div>
+        <div class="botoes-area">
+            <button class="botao__criptografar">Criptografar</button>
+            <button class="botao__descriptografar">Descriptografar</button>
+        </div>
         </div>
     </main>
 
