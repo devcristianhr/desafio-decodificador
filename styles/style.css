@@ -2,7 +2,210 @@
 
 *{
     font-family: 'Inter', sans-serif;
-    background-color: #F3F5FC;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F3F5FC;
+
+}
+.cabecalho__container{
+    margin: 2% 0% 0% 2%;
+    flex-direction: row;
+}
+
+
+.container__entrada__saida__de__texto{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin: 1rem 0rem;
+}
+
+.entrada__saida__de__texto{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.entrada__de__texto__container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+}
+
+.entrada__de__texto__container-escrever{
+    width: 100%;
+}
+
+.entrada__de__texto__escrever{
+    font-family: "Inter", sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    color: #0A3871;
+    resize: none;
+    width: 100%;
+    height: 55vh;
+    padding: 0.625rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.entrada__de__texto__escrever::placeholder{
+    color: #0A3871;
+    font-size: 2rem;
+}
+
+.exclamacao{
+    padding-top: 1.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+}
+
+.botoes-area{
+    height: 15%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 40%;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.3125rem;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.botao__criptografar{
+    background-color: #0A3871;
+    color: #ffffff;
+    border: 0.1rem solid #0A3871;
+}
+
+.botao__criptografar:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em #0A3871;
+    transform: translateY(-0.25em);
+}
+
+.botao__descriptografar{
+    color: #0A3871;
+    background-color: #D8DFE8;
+    border: 0.1rem solid #0A3871;
+}
+.botao__descriptografar:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em #495057;
+    transform: translateY(-0.25em);
+}
+
+.saida__de__texto{
+    width: 37%;
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+}
+
+.saida__de__texto__vizualizar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.vizualizacao__fixa{
+    padding: 5%;
+    margin: 2%;
+    resize: none;
+    width: 100%;
+    height: 85%;
+    border-radius: 2rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 1.25rem;
+    color: #0A3871;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.saida__de__texto__vizualizar__saida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saida_img{
+    width: 45%;
+    margin-top: 1.25rem;
+}
+
+.title{
+    text-align: center;
+    width: 80%;
+}
+
+.saida__de__texto__vizualizar-titulo{
+    font-size: 1.2rem;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+}
+
+.saida__de__texto__vizualizar-subtitulo{
+    font-size: 0.8rem;
+    font-weight: 200;
+    margin: 0.625rem;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+}
+
+.saida__de__texto__vizualizar__copiar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.600rem;
+    margin-bottom: 4%;
+    width: 60%;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.9175rem;
+    box-shadow: 0 0.3em 0.3em -0.2em black;
+    font-size: 1.1025rem;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+}
+
+.saida__de__texto__vizualizar__copiar:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+
+.rodape__contato__area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem; 
+}
+
+.contato__area__redes_sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    color: #0A3871;
+}
+.contato__area__nome{
+    color: #0A3871;
 }

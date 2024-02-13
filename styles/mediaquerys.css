@@ -1,0 +1,130 @@
+@media(max-width: 950px) {
+    .container__entrada__saida__de__texto .entrada__saida__de__texto {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .entrada__de__texto__container {
+        width: 100%;
+    }
+
+    .entrada__de__texto__escrever {
+        height: 30vh;
+    }
+
+    .botoes-area {
+        justify-content: space-between;
+    }
+
+    .bt {
+        font-size: 1.3125rem;
+        width: 45%;
+    }
+
+    .saida__de__texto {
+        width: 100%;
+        height: 40%;
+    }
+
+    .saida__de__texto__vizualizar__saida {
+        margin: auto;
+    }
+
+    .saida_img {
+        display: none;
+    }
+}
+
+@media(max-width: 540px) {
+    .entrada__de__texto__escrever {
+        font-size: 1.2rem;
+    }
+
+    .exclamacao {
+        font-size: 0.875rem;
+    }
+
+    .bt {
+        font-size: 0.8rem;
+    }
+
+    .vizualizacao__fixa {
+        font-size: 1.2rem;
+    }
+
+    .saida__de__texto__vizualizar-titulo title {
+        font-size: 1.25rem;
+    }
+
+    .saida__de__texto__vizualizar-subtitulo {
+        font-size: 0.825rem;
+    }
+
+    .saida__de__texto__vizualizar__copiar {
+        padding: 0.625rem;
+        font-size: 1rem;
+    }
+    .rodape__contato__area{
+        font-size: 0.9rem;
+        width: auto;
+    }
+}
+
+@media(max-width: 390px) {
+    .entrada__de__texto__escrever {
+        font-size: 1rem;
+    }
+
+    .exclamacao {
+        font-size: 0.75rem;
+    }
+
+    .bt{
+        font-size: 0.5rem;
+        width: 47%;
+    }
+
+    .vizualizacao__fixa {
+        font-size: 1rem;
+    }
+    .rodape{
+        font-size: 0.5rem;
+        width: auto;
+        padding: 1rem;
+    }
+}
+
+@media(max-width: 340px) {
+
+    .botoes-area{
+        flex-direction: column;
+        gap: 0.625rem;
+    }
+    
+    .bt {
+        width: 100%;
+        font-size: 0.5rem;
+    }
+    
+    .saida__de__texto__vizualizar-titulo {
+        font-size: 1.2rem;
+    }
+
+    .saida__de__texto__vizualizar-subtitulo {
+        font-size: 0.75rem;
+    }
+    .botao__criptografar{
+        font-size: 0.3rem;
+
+    }
+    .botao__descriptografar{
+        font-size: 0.3rem;
+    
+    }
+    .rodape{
+        font-size: 0.5rem;
+        width: auto;
+        padding: 1rem;
+    }
+}
