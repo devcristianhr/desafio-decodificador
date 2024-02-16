@@ -2,7 +2,232 @@
 
 *{
     font-family: 'Inter', sans-serif;
-    background-color: #F3F5FC;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #264653;
+
+}
+.cabecalho__container{
+    margin: 2% 0% 0% 2%;
+    flex-direction: row;
+}
+
+
+.container__entrada__saida__de__texto{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    margin: 1rem 0rem;
+}
+
+.entrada__saida__de__texto{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.entrada__de__texto__container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+}
+
+.entrada__de__texto__container-escrever{
+    width: 100%;
+}
+
+.entrada__de__texto__escrever{
+    font-family: "Inter", sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    color: #E9C46A;
+    resize: none;
+    width: 100%;
+    height: 55vh;
+    padding: 0.625rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.entrada__de__texto__escrever::placeholder{
+    color: #E9C46A;
+    font-size: 2rem;
+}
+
+.exclamacao{
+    padding-top: 1.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #E76F51;
+}
+
+.botoes-area{
+    height: 15%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 40%;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.3125rem;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.botao__criptografar{
+    background-color: #E9C46A;
+    color: #2A9D8F;
+    border: 0.1rem solid #E9C46A;
+}
+
+.botao__criptografar:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em #E9C46A;
+    transform: translateY(-0.25em);
+}
+
+.botao__descriptografar{
+    color: #E9C46A;
+    background-color: #2A9D8F;
+    border: 0.1rem solid #E9C46A;
+}
+.botao__descriptografar:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em #E76F51;
+    transform: translateY(-0.25em);
+}
+
+.saida__de__texto{
+    width: 37%;
+    border-radius: 2rem;
+    background-color: #2A9D8F;
+}
+
+.saida__de__texto__vizualizar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.vizualizacao__fixa{
+    padding: 5%;
+    margin: 2%;
+    resize: none;
+    width: 100%;
+    height: 85%;
+    border-radius: 2rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 1.25rem;
+    color: #E9C46A;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.saida__de__texto__vizualizar__saida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saida_img{
+    width: 45%;
+    margin-top: 1.25rem;
+}
+
+
+.title{
+    text-align: center;
+    width: 80%;
+}
+
+.saida__de__texto__vizualizar-titulo{
+    font-size: 1.2rem;
+    color: #E9C46A;
+    font-family: "Inter", sans-serif;
+}
+
+.saida__de__texto__vizualizar-subtitulo{
+    font-size: 0.8rem;
+    font-weight: 200;
+    margin: 0.625rem;
+    color: #E9C46A;
+    font-family: "Inter", sans-serif;
+}
+
+.saida__de__texto__vizualizar__copiar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.600rem;
+    margin-bottom: 4%;
+    width: 60%;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.9175rem;
+    box-shadow: 0 0.3em 0.3em -0.2em black;
+    font-size: 1.1025rem;
+    background-color: #2A9D8F;
+    color: #E9C46A;
+    font-family: "Inter", sans-serif;
+}
+
+.saida__de__texto__vizualizar__copiar:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+    transform: translateY(-0.25em);
+}
+
+
+.rodape{
+    background-color: #2A9D8F;
+    color: #E9C46A;
+    padding: 1.8rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.rodape__contato__area{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contato__area__redes_sociais{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.contato__area__redes_sociais a{
+    color: #E9C46A;
+    text-decoration: none;
+}
+
+.contato__area__redes_sociais a:hover{
+    color: #E76F51;
+}
+
+.contato__area__nome{
+    color: #E9C46A;
+}
+
+.contato__area__nome:hover{
+    color: #E76F51;
 }
