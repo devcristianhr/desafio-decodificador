@@ -34,6 +34,24 @@
     .saida_img {
         display: none;
     }
+    .rodape__contato__area {
+        font-size: 1.4rem;
+        width: auto;
+        gap: 0.2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape{
+        background-color: #2A9D8F;
+        color: #E9C46A;
+        padding: 0;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+
+    }
 }
 
 @media(max-width: 540px) {
@@ -65,9 +83,23 @@
         padding: 0.625rem;
         font-size: 1rem;
     }
-    .rodape__contato__area{
+    .rodape__contato__area {
         font-size: 0.9rem;
         width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    .rodape{
+        background-color: #2A9D8F;
+        color: #E9C46A;
+        padding: 0;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }
 
@@ -88,11 +120,24 @@
     .vizualizacao__fixa {
         font-size: 1rem;
     }
-    .rodape{
+    .rodape__contato__area {
+        justify-content: center;
+        flex-direction: column;
         font-size: 0.5rem;
         width: auto;
-        padding: 1rem;
+        align-items: center;
     }
+
+    .rodape{
+    background-color: #2A9D8F;
+    color: #E9C46A;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
 }
 
 @media(max-width: 340px) {
@@ -122,9 +167,21 @@
         font-size: 0.3rem;
     
     }
-    .rodape{
+    .rodape__contato__area{
+        justify-content: center;
+        flex-direction: column;
         font-size: 0.5rem;
         width: auto;
-        padding: 1rem;
+        align-items: center;
+    }
+    .rodape{
+        background-color: #2A9D8F;
+        color: #E9C46A;
+        padding: 0;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    
     }
 }
